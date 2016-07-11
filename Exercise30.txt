@@ -1,0 +1,5 @@
+a) The expression 'new Date()' produces an object. When called, it usually returns a string, but it's more complicated than that because the object can also be expressed as a number. new Date(); without any perameters returns the current date and time. If given perameters, new Date() will return a specific date. If given a number as a perameter, it returns a date that number of miliseconds from the beginning of 1970. If given a string like "October 31st 2012" it will return a Date object associated with October 31st 2012 00:00:00 GMT. It can also accept a series of numbers representing year, month, day, hour, minute, second, millisecond.
+
+b) The expression 'new Date(2009,0,20)' produces a Date object associated with January 20th 2009 00:00:00 GMT.
+
+c)If d1 and d2 are both Date objects, d1.valueOf() -d2.valueOf() will produce the difference in milliseconds between d1 and d2. Specifically, the number of milliseconds which will have passed since d2 as of d1. This result will be returned as a number.
